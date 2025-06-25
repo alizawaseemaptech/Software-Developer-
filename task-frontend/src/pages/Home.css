@@ -1,0 +1,144 @@
+/* Home.css */
+
+.home-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.task-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.task-item h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #222;
+}
+.no-tasks {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.no-tasks {
+  animation: pulseFade 2s infinite;
+}
+
+@keyframes pulseFade {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+
+.task-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+.task-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background-color 0.3s;
+}
+.search-input {
+  padding: 20px;
+  margin: 10px 0;
+  width: 180%;
+  max-width: 650px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  height: 24px;
+  border-radius: 4px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+
+.progress {
+  height: 100%;
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+.task-actions button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.task-actions button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.task-actions button:first-child:hover {
+  background-color: #0056b3;
+}
+
+.task-actions button:last-child {
+  background-color: #e1f810;
+  color: white;
+}
+
+
+.task-actions button:last-child:hover {
+  background-color: #ffffff;
+}
