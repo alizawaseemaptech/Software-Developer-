@@ -1,6 +1,5 @@
-Bilkul Aliza! 👩‍💻 Neeche main is description ko zyada professional, engaging aur visually appealing style mein likh rahi hoon — emojis ke saath:
 
----
+
 
 🚀 **Task Manager Web Application**
 A powerful and responsive full-stack web app built with the **MERN stack** —
@@ -10,11 +9,11 @@ This project was developed as part of a **Software Development Internship** 🧑
 ---
 
 🔧 **Core Features:**
-✅ Add, edit, and delete tasks effortlessly
-✅ Track task progress: *Pending ⏳ | In Progress 🔄 | Completed ✅*
-✅ Smart search 🔍 and dynamic filters to quickly find tasks
-✅ Secure user authentication with **JWT** 🔐 (optional)
-✅ Fully responsive design for all screen sizes 📱💻
+1) Add, edit, and delete tasks effortlessly
+2) Track task progress: *Pending ⏳ | In Progress 🔄 | Completed ✅*
+3) Smart search 🔍 and dynamic filters to quickly find tasks
+4) Secure user authentication with **JWT** 🔐 (optional)
+5) Fully responsive design for all screen sizes 📱💻
 
 ---
 
@@ -27,7 +26,7 @@ This project was developed as part of a **Software Development Internship** 🧑
 
 ---
 
-💼 Ideal for task management needs, personal productivity, or as a learning reference for MERN stack projects.
+💼 Ideal for task management needs, personal productivity, or as a learning reference for Software Developer projects.
 
 ---
 
