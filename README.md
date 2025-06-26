@@ -28,6 +28,3 @@ This project was developed as part of a **Software Development Internship** 🧑
 
 💼 Ideal for task management needs, personal productivity, or as a learning reference for Software Developer projects.
 
----
-
-Agar chaaho to main isay PDF format mein ya `README.md` style mein bhi ready kar sakti hoon for GitHub. Batao kis format mein chahiye?
